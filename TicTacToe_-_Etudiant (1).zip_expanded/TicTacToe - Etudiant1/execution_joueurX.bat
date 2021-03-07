@@ -1,0 +1,1 @@
+java -jar dist\TicTacToe.jar 9100 localhost localhost 9101 true

@@ -1,0 +1,62 @@
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class VueMastermind extends JPanel {
+
+	public VueMastermind() {
+		this.setLayout(new BorderLayout());
+		// Barre Couleurs
+		JPanel Top = new JPanel();
+		JLabel Couleurs;
+		JPanel Barre = new JPanel();
+		JPanel Mid = new JPanel();
+		JPanel Bot = new JPanel();
+		JButton Valider = new JButton("Valider");
+		this.add(Top,BorderLayout.NORTH);
+		this.add(Mid,BorderLayout.CENTER);
+		this.add(Bot,BorderLayout.SOUTH);
+		Top.setLayout(new FlowLayout());
+		Couleurs = new JLabel("Couleurs");
+		Barre.setLayout(new GridLayout(1, 6));
+		Top.add(Couleurs);
+		Top.add(Barre);
+		for (int i = 0; i < 6; i++) {
+			JButton b = new JButton();
+			Barre.add(b);
+		}
+		Mid.setLayout(new GridLayout(10, 2));
+		Mid.add(GrilleCouleur);
+		for (int i = 0; i < 10; i++) {
+			JPanel GrilleCorrecte = new JPanel();
+			GrilleCorrecte.setLayout(new GridLayout(2,2));
+			Mid.add(GrilleCorrecte);
+			JLabel l = new JLabel("BP");
+			JTextField t = new JTextField();
+			for(int j = 0; j<4 ; j++) {
+				JPanel GrilleCouleur = new JPanel();
+				GrilleCouleur.setLayout(new GridLayout(1,4));
+				Mid.add(GrilleCouleur);
+				JButton b = new JButton();
+				GrilleCouleur.add(b);
+			}
+			GrilleCorrecte.add(l);
+			GrilleCorrecte.add(t);
+		}
+		Bot.setLayout(new GridLayout(1,2));
+		JPanel BarreValider = new JPanel();
+		BarreValider.setLayout(new GridLayout(1,4));
+		for (int i = 0; i < 4; i++) {
+			JButton b = new JButton();
+			BarreValider.add(b);
+		}
+		Bot.add(BarreValider);
+		Bot.add(Valider);
+	}
+
+}

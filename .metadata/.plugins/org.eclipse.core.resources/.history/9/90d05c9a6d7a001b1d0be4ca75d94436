@@ -1,0 +1,16 @@
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+
+public class Application {
+
+	public static void main(String[] args) {
+		JFrame f = new JFrame();
+		f.add(new VueMastermind(10,10));
+		f.setTitle("Masrt");
+		f.pack();
+		f.setVisible(true);
+		f.setSize(200,200);	
+	}
+
+}

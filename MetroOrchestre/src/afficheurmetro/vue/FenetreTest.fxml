@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afficheurmetro.vue.FenetreTestController">
+   <children>
+      <ListView id="stationDebut" fx:id="stationDebut" layoutX="38.0" layoutY="65.0" prefHeight="44.0" prefWidth="200.0" />
+      <ListView id="quaiDebut" fx:id="quaiDebut" accessibleRole="LIST_ITEM" layoutX="251.0" layoutY="65.0" prefHeight="44.0" prefWidth="56.0" />
+      <ListView id="rameDebut" fx:id="rameDebut" accessibleRole="LIST_ITEM" layoutX="320.0" layoutY="65.0" prefHeight="44.0" prefWidth="48.0" />
+      <Button id="pos" layoutX="38.0" layoutY="240.0" mnemonicParsing="false" onAction="#actionHandler" text="Positionner rame" />
+      <Button id="dep" layoutX="186.0" layoutY="240.0" mnemonicParsing="false" onAction="#actionHandler" text="Déplacer rame" />
+      <ListView fx:id="stationSuivante" layoutX="38.0" layoutY="158.0" prefHeight="44.0" prefWidth="200.0" />
+      <ListView fx:id="quaiSuivant" layoutX="251.0" layoutY="158.0" prefHeight="44.0" prefWidth="56.0" />
+      <Label layoutX="38.0" layoutY="37.0" prefHeight="21.0" prefWidth="353.0" text="Station et quai d'origine, et numero de rame">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="129.0" prefHeight="17.0" prefWidth="333.0" text="Station et quai de destination">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

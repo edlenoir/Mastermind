@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ModeleMorpion"/>
+    <fullyQualifiedTypeName name="ControleurMorpion.EtatControleur"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.swing.event.CaretEvent"/>
+    <fullyQualifiedTypeName name="javax.swing.event.CaretListener"/>
+    <fullyQualifiedTypeName name="javax.swing.UIManager"/>
+    <fullyQualifiedTypeName name="tictactoe.GestionClicCase"/>
+    <fullyQualifiedTypeName name="tictactoe.TicTacToeIHM"/>
+    <fullyQualifiedTypeName name="tictactoe.TicTacToeIHMImpl"/>
+    <fullyQualifiedTypeName name="java.rmi.NotBoundException"/>
+    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+    <fullyQualifiedTypeName name="javax.swing.Icon"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.Component"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="VueJeton"/>
+    <fullyQualifiedTypeName name="ControleurJeton.Etat"/>
+    <fullyQualifiedTypeName name="ModeleMastermind"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.parser.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+    <fullyQualifiedTypeName name="metroorchestre.RameImpl"/>
+    <fullyQualifiedTypeName name="java.rmi.Naming"/>
+    <fullyQualifiedTypeName name="metroorchestre.Rame"/>
+    <fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+    <fullyQualifiedTypeName name="afficheurmetro.MetroSuperviseurIHM"/>
+    <fullyQualifiedTypeName name="VueMastermind"/>
+</qualifiedTypeNameHistroy>
